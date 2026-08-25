@@ -6,6 +6,12 @@ A learning-focused, browser-based dungeon crawler game built with TypeScript and
 ![Three.js](https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=three.js&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
 
+## 📸 Screenshots
+
+![Gameplay](docs/gameplay.png)
+
+A procedurally generated dungeon floor with the player, enemies, and items rendered in a 3D view.
+
 ## 🎮 How to Play
 
 ### Controls
