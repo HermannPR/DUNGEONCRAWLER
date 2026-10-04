@@ -123,7 +123,6 @@ export class Game {
       // For now, only spawn health potions
       const item = new Item(position, ItemType.HEALTH_POTION);
       this.items.push(item);
-      this.renderer.addEntity({ ...item, type: 0, stats: { maxHp: 0, hp: 0, attack: 0, defense: 0, level: 0 }, isAlive: true, name: 'Item' } as any);
       const mesh = item.createMesh();
       this.renderer['scene'].add(mesh);
     }
